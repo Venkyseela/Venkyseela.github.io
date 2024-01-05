@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funngro - Company/Teenager</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            text-align: center;
+            color: #fff;
+        }
+
+        header {
+            background-color: #4caf50; /* Updated to green */
+            color: #fff;
+            padding: 20px;
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+
+        section {
+            padding: 50px;
+        }
+
+        footer {
+            background-color: #121212;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #4caf50; /* Updated to green */
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #45a049; /* Slightly darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fungro</h1> <!-- Changed "Discover Funngro" to "Fungro" -->
+    </header>
+
+    <section>
+        <p>Unlock your potential with Fungro - where learning meets excitement!</p>
+        <button id="companyButton" onclick="redirectToCompany()">For Companies</button>
+        <button id="teenagerButton" onclick="redirectToTeenager()">For Teenagers</button>
+    </section>
+
+    <footer>
+        &copy; 2024 Fungro. All rights reserved. <!-- Updated to "Fungro" -->
+    </footer>
+
+    <script>
+        function redirectToCompany() {
+            window.location.href = "https://www.funngro.com/company";
+        }
+
+        function redirectToTeenager() {
+            window.location.href = "https://www.funngro.com/teenager";
+        }
+    </script>
+
+</body>
+</html>
